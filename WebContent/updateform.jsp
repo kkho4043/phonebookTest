@@ -15,8 +15,6 @@
       String hp = null;
       String company = null;
       
-      
-      
       PhoneDao phoneDao = new PhoneDao();
       List<PersonVo> personlist = phoneDao.getPersonList();
       
